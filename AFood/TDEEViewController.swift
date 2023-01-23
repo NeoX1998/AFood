@@ -13,6 +13,7 @@ class TDEEViewController: ViewController {
     var BMR : Double = 0
     var isFemale : Bool = false
     var tag = 0
+    var isReasonable : Bool = true
     
     @IBOutlet weak var gender: UIButton!
     @IBOutlet weak var height: UITextField!
@@ -63,6 +64,19 @@ class TDEEViewController: ViewController {
     @IBAction func calculate(_ sender: Any) {
         if height.text == "" || weight.text == "" || age.text == ""  {
             let alertController = UIAlertController(title: NSLocalizedString("Error", comment: "Error"), message: NSLocalizedString("We can't proceed because some fields is blank. Please note that all fields are required.", comment: "Fill in the required fields"), preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alertController.addAction(alertAction)
+            present(alertController, animated: true, completion: nil)
+            
+            return
+        }
+        
+        if Double(height.text ?? "")! < 140 || Double(height.text ?? "")! > 230 || Double(weight.text ?? "")! < 30 || Double(weight.text ?? "")! > 200 || Double(age.text ?? "")! < 15 || Double(age.text ?? "")! > 120 {
+            isReasonable = false
+        }
+        
+        if isReasonable == false {
+            let alertController = UIAlertController(title: NSLocalizedString("Error", comment: "Error"), message: NSLocalizedString("We can't proceed because some fields are unreasonable. The following are acceptable ranges for the all fields : \nHeight : 140 ~ 230 \nWeight : 30 ~ 200 \n Age : 15 ~ 120", comment: "Fill in the reasonable fields"), preferredStyle: .alert)
             let alertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(alertAction)
             present(alertController, animated: true, completion: nil)
