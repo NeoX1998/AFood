@@ -19,6 +19,7 @@
 		6542A9AA29753386007E1F55 /* RestaurantDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6542A9A929753386007E1F55 /* RestaurantDiffableDataSource.swift */; };
 		6542A9AC29754284007E1F55 /* TDEEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6542A9AB29754284007E1F55 /* TDEEViewController.swift */; };
 		6569A40D297544AA0081AEB5 /* TDEEResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569A40C297544AA0081AEB5 /* TDEEResultViewController.swift */; };
+		6569A40F2975545F0081AEB5 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569A40E2975545F0081AEB5 /* MoreTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		6542A9A929753386007E1F55 /* RestaurantDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDiffableDataSource.swift; sourceTree = "<group>"; };
 		6542A9AB29754284007E1F55 /* TDEEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDEEViewController.swift; sourceTree = "<group>"; };
 		6569A40C297544AA0081AEB5 /* TDEEResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDEEResultViewController.swift; sourceTree = "<group>"; };
+		6569A40E2975545F0081AEB5 /* MoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				6542A99129752C52007E1F55 /* SceneDelegate.swift */,
 				6542A99329752C52007E1F55 /* ViewController.swift */,
 				6542A99529752C52007E1F55 /* Main.storyboard */,
+				6569A40E2975545F0081AEB5 /* MoreTableViewController.swift */,
 				6569A40C297544AA0081AEB5 /* TDEEResultViewController.swift */,
 				6542A9AB29754284007E1F55 /* TDEEViewController.swift */,
 				6542A9A929753386007E1F55 /* RestaurantDiffableDataSource.swift */,
@@ -160,6 +163,7 @@
 				6542A99429752C52007E1F55 /* ViewController.swift in Sources */,
 				6542A99029752C52007E1F55 /* AppDelegate.swift in Sources */,
 				6569A40D297544AA0081AEB5 /* TDEEResultViewController.swift in Sources */,
+				6569A40F2975545F0081AEB5 /* MoreTableViewController.swift in Sources */,
 				6542A9A429753098007E1F55 /* RestaurantTableViewController.swift in Sources */,
 				6542A9AC29754284007E1F55 /* TDEEViewController.swift in Sources */,
 				6542A9A82975323D007E1F55 /* RestaurantTableViewCell.swift in Sources */,
