@@ -80,6 +80,7 @@ class TDEEViewController: ViewController {
             let alertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(alertAction)
             present(alertController, animated: true, completion: nil)
+            isReasonable = true
             
             return
         }
