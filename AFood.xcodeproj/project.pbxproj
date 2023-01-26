@@ -70,22 +70,54 @@
 		6542A98E29752C52007E1F55 /* AFood */ = {
 			isa = PBXGroup;
 			children = (
+				658030682982AD0300F65A21 /* Storyboard */,
+				658030672982ACF100F65A21 /* Model */,
+				658030662982ACE400F65A21 /* View */,
+				658030652982ACC400F65A21 /* Controller */,
 				6542A98F29752C52007E1F55 /* AppDelegate.swift */,
 				6542A99129752C52007E1F55 /* SceneDelegate.swift */,
 				6542A99329752C52007E1F55 /* ViewController.swift */,
-				6542A99529752C52007E1F55 /* Main.storyboard */,
-				6569A40E2975545F0081AEB5 /* MoreTableViewController.swift */,
-				6569A40C297544AA0081AEB5 /* TDEEResultViewController.swift */,
-				6542A9AB29754284007E1F55 /* TDEEViewController.swift */,
-				6542A9A929753386007E1F55 /* RestaurantDiffableDataSource.swift */,
-				6542A9A72975323D007E1F55 /* RestaurantTableViewCell.swift */,
-				6542A9A529753132007E1F55 /* Restaurant.swift */,
-				6542A9A329753098007E1F55 /* RestaurantTableViewController.swift */,
 				6542A99829752C53007E1F55 /* Assets.xcassets */,
-				6542A99A29752C53007E1F55 /* LaunchScreen.storyboard */,
 				6542A99D29752C53007E1F55 /* Info.plist */,
 			);
 			path = AFood;
+			sourceTree = "<group>";
+		};
+		658030652982ACC400F65A21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6569A40E2975545F0081AEB5 /* MoreTableViewController.swift */,
+				6569A40C297544AA0081AEB5 /* TDEEResultViewController.swift */,
+				6542A9AB29754284007E1F55 /* TDEEViewController.swift */,
+				6542A9A329753098007E1F55 /* RestaurantTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		658030662982ACE400F65A21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6542A9A72975323D007E1F55 /* RestaurantTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		658030672982ACF100F65A21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6542A9A529753132007E1F55 /* Restaurant.swift */,
+				6542A9A929753386007E1F55 /* RestaurantDiffableDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		658030682982AD0300F65A21 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6542A99529752C52007E1F55 /* Main.storyboard */,
+				6542A99A29752C53007E1F55 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
