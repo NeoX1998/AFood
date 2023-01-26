@@ -104,6 +104,10 @@ class TDEEViewController: ViewController {
         }
     }
     
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) { //設定點擊空白處關閉鍵盤
+            view.endEditing(true)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showTDEE" {
             let destinationVC = segue.destination as? TDEEResultViewController
